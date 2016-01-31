@@ -47,6 +47,9 @@ void setup(){
     displayboard(array, full_flag);    
 }
 
+// Uses a recursive DF decision game tree algorithm to assess and evaluate best weighted options from "terminal" leaves at a ...
+//  ... pre-determined level down (for time consideration)
+// Note: Assumes opponent makes the best decisions possibly at each turn
 void loop(){
     while(full_flag[7] != 1)             
     {
